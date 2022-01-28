@@ -1,23 +1,20 @@
 h6 {
-    color: rgb(117, 117, 117);
-    margin-bottom: 0.6em;
-    cursor: pointer;
-    padding-bottom: 0.2em;
+  color: rgb(117, 117, 117);
+  margin-bottom: 0.6em;
+  cursor: pointer;
+  padding-bottom: 0.2em;
 }
 
 h6:hover {
-    background-color: rgb(223, 223, 223);
+  background-color: rgb(223, 223, 223);
 }
 
-
-
-
 .suggestion-container {
-    border: 1px solid rgb(196, 193, 193);
-    width: 200px;
-    font-size: 19px;
-    /* overflow: visible; */
-    /* position: relative; */
-    background-color: white;
-    z-index: 2;
+  border: 1px solid rgb(196, 193, 193);
+  width: 220px;
+  font-size: 1.2em;
+  /* overflow: visible; */
+  /* position: relative; */
+  background-color: white;
+  z-index: 2;
 }

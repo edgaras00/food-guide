@@ -8,7 +8,6 @@ const fetchData = async (query) => {
     const response = await fetch(`${query}&ll=40.765560,-73.956100`);
     const data = await response.json();
     return data.response.groups[0].items;
-    //    setPlacesData(data.response.groups[0].items);
   } catch (error) {
     console.log(error);
   }

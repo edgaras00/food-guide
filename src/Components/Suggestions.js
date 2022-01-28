@@ -9,8 +9,6 @@ const Suggestions = (props) => {
   const main = "https://api.foursquare.com/v2/venues/explore?";
   const clientId = process.env.REACT_APP_API;
   const secret = process.env.REACT_APP_SECRET;
-  console.log(clientId);
-  console.log(secret);
   const v = "20201205";
   const categoryId = "4d4b7105d754a06374d81259";
   const offset = "5";
