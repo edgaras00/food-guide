@@ -1,10 +1,10 @@
-import React, {useContext} from 'react';
-import './Styles/app.css';
-import Navbar from './Components/Navbar';
-import {DataContext} from './Context/dataContext';
-import Sidebar from './Components/Sidebar';
+import React, { useContext } from "react";
 import { MapContainer, TileLayer, useMap } from "react-leaflet";
-import RestaurantMarker from './Components/RestaurantMarker';
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import RestaurantMarker from "./components/RestaurantMarker";
+import { DataContext } from "./context/dataContext";
+import "./styles/app.css";
 
 const App = () => {
   // React Context data
@@ -37,7 +37,7 @@ const App = () => {
     const map = useMap();
     map.setView([mapLat, mapLon]);
     return null;
-  }
+  };
 
   // Function to remove suggestions from the searchbar when user clicks
   // anywhere else on the app

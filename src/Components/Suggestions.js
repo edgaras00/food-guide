@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { DataContext } from "../Context/dataContext";
-import "../Styles/suggestions.css";
+import { DataContext } from "../context/dataContext";
+import "../styles/suggestions.css";
 
 const Suggestions = (props) => {
   const { setMapLat, setMapLon, setPlacesData } = useContext(DataContext);

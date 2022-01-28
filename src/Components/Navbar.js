@@ -1,7 +1,7 @@
 import React, { useState, useContext, useEffect } from "react";
-import { DataContext } from "../Context/dataContext";
-import Suggestions from "../Components/Suggestions";
-import "../Styles/navbar.css";
+import Suggestions from "../components/Suggestions";
+import { DataContext } from "../context/dataContext";
+import "../styles/navbar.css";
 
 const fetchData = async (query) => {
   try {

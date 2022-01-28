@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { DataContext } from "../Context/dataContext";
-import "../Styles/sidebarItem.css";
+import { DataContext } from "../context/dataContext";
+import "../styles/sidebarItem.css";
 
 const SidebarItem = (props) => {
   // Functional component for a sidebar item that holds info about venue

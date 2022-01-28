@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useContext } from "react";
 import { Marker, Popup } from "react-leaflet";
-import { DataContext } from "../Context/dataContext";
-import "../Styles/marker.css";
+import { DataContext } from "../context/dataContext";
+import "../styles/marker.css";
 
 const RestaurantMarker = (props) => {
   // Functional map marker component
